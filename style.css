@@ -1,0 +1,163 @@
+/* Reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-image: linear-gradient(to right, #ff00e9, #7f91ff, #00c8ff, #00e9ff, #00fff3) !important;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  /* Calculator section */
+  .calculator {
+    padding: 40px 0;
+    background-color: #fff;
+  }
+  
+  h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .radio-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .radio-buttons label {
+    margin: 0 10px;
+    font-size: 1.2em;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    width: 80%;
+    max-width: 200px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+.botao{
+  align-items: center;
+  text-align: center;
+}
+
+  button {
+    background-color: #00fff3;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #3b5b87;
+  }
+  
+  /* Preview */
+  .preview {
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(to right, #ff00e9, #7f91ff, #00c8ff, #00e9ff, #00fff3) !important;
+    border-radius: 5px;
+  }
+  
+  #previewCanvas {
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  /* About section */
+  .about {
+    padding: 40px 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .order-btn {
+    background-color: #e5005c;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .order-btn:hover {
+    background-color: #c4004f;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    background-color: fff;
+    color: black;
+    text-align: center;
+  }
+  
+  footer .logo {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  footer .social-links {
+    margin-bottom: 20px;
+  }
+  
+  footer .social-links a {
+    color: rgb(255, 0, 157);
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
